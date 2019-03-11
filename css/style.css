@@ -236,6 +236,11 @@ table {
 }
 
 @media screen and (max-width: 600px) and (min-width:300px) {
+
+  .container {
+    width: 100%;
+    align-content: center;
+  }
   table {
     padding: 10px;
     font-family: arial;
