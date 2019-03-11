@@ -1,14 +1,19 @@
 .container {
   width: auto;
-  height: 800px;
   align-content: center;
+  padding:8vh;
 }
 
 .myheader {
   display: flex;
   justify-content: start;
-  box-shadow: 0 5px #888888;
+  box-shadow: 0 5px gainsboro;
   padding: 20px 0 20px 0;
+}
+.menu li a {
+  color: gray;
+  font-weight: 500;
+  font-size: large;
 }
 
 .logo {
@@ -22,6 +27,8 @@
   padding: 30px 0 0 50px;
   text-align: center;
 }
+
+
 
 .menu {
 
@@ -59,12 +66,12 @@ text-heading-tablet{
 
 .text-heading {
   background-color: white;
-  color: black;
+  color: gray;
   margin-left: 1px;
   margin-right: 1px;
   width: 100%;
-  /* height: 17vh; */
   font-size: 1.3rem;
+  padding: 0 0 20px 15px;
 
 }
 
@@ -72,11 +79,16 @@ text-heading-tablet{
   margin-bottom: 20px;
   margin-top: 20px;
   color: darkgray;
+  padding: 15px;
 }
 
-.latest-news {
-  margin-bottom: 20px;
+.Latest-news {
   margin-top: 20px;
+  color: gray;
+  padding-bottom: 20px;
+  box-shadow: 0 2px #888888;
+  
+  
 }
 
 .top-news-heading1 {
@@ -84,7 +96,8 @@ text-heading-tablet{
   justify-content: space-between;
   list-style-type: none;
   box-shadow: 0 2px #888888;
-  padding: 10px 0 10px 0;
+  font-size: 1.6em;
+  color:darkslategray;
 
 }
 
@@ -98,7 +111,7 @@ text-heading-tablet{
 table,
 td,
 th {
-  padding: 10px;
+  padding: 20px;
 }
 
 .table {
@@ -108,10 +121,11 @@ th {
 table {
   border-collapse: collapse;
   width: 100%;
+  text-align: center;
 }
 
 .weather {
-  margin-bottom: 20px;
+   padding: 20px;
 }
 
 .weather-tablet {
@@ -120,22 +134,30 @@ table {
 
 .Latest-news-logo {
   width: 8vw;
+  margin-right: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.temp_view{
+  padding-top: 20px
 }
 
 .latest-margin {
-  margin: 30px 0 30px 0;
+  margin: 20px 0 0 0;
   font-size: 1rem;
 }
 
 .foot {
-  padding: 30px;
   display: flex;
-  border-top: 5px solid gray;
-  box-shadow: 2px #888888;
+  /* border-top: 5px solid gray; */
   list-style-type: none;
+  /* box-shadow: 0 5px #888888; */
+  box-shadow: 0 5px gainsboro;
+  font-family: sans-serif;
+  
 }
 
-@media screen and (max-width: 800px) and (min-width:600px) {
+@media screen and (max-width: 900px) and (min-width:600px) {
 
   #doggy-weather {
     display: flex;
